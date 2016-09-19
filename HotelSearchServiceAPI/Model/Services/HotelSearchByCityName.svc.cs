@@ -11,7 +11,7 @@ using XMLReadLibrary.XMLClasses;
 
 namespace HotelServiceAPI.Model.Services
 {
-  
+
     public class HotelSearchByCityName : IHotelSearch
     {
 
@@ -22,22 +22,22 @@ namespace HotelServiceAPI.Model.Services
         /// Returns HotelResponse object which contains hotels by city name search
         public HotelResponse GetHotels()
         {
-            //database code
-            //HotelResponse hotelResponse = new HotelResponse();
-            //HotelOperations hotelOperations = new HotelOperations();
-            //try
-            //{
-            //    ParseHotel hotelParse = new ParseHotel();
-            //    hotelResponse.Hotels = hotelParse.Parse(hotelOperations.SearchByCity(CityName));
+            /*   database code
+               HotelResponse hotelResponse = new HotelResponse();
+               HotelOperations hotelOperations = new HotelOperations();
+               try
+               {
+                   ParseHotel hotelParse = new ParseHotel();
+                   hotelResponse.Hotels = hotelParse.Parse(hotelOperations.SearchByCity(CityName));
 
-            //}
-            //catch (Exception exception)
-            //{
-            //    hotelResponse.HotelStatus.IsFailed = true;
-            //    hotelResponse.HotelStatus.Errors.Add(exception.ToString());
-            //}
-            //return hotelResponse;
-
+               }
+               catch (Exception exception)
+               {
+                   hotelResponse.HotelStatus.IsFailed = true;
+                   hotelResponse.HotelStatus.Errors.Add(exception.ToString());
+               }
+               return hotelResponse;
+               */
             //xml code
             //xml read and parse
             HotelResponse hotelResponse = new HotelResponse();
@@ -45,26 +45,26 @@ namespace HotelServiceAPI.Model.Services
 
             TranslateHotel translateHotel = new TranslateHotel();
 
-            Task<SearchResult> tasklistxml = Task<SearchResult>.Factory.StartNew(() => serializeOperaionsXML.ReadXml());
+            Task<SearchResult> xmlReadtask = Task<SearchResult>.Factory.StartNew(() => serializeOperaionsXML.ReadXml());
 
-            hotelResponse.Hotels = translateHotel.XMLHotel(tasklistxml.Result);
+            hotelResponse.Hotels = translateHotel.XMLHotel(xmlReadtask.Result);
 
             //json1 read and parse
-            SerializeJsonProvider1 serjson1 = new SerializeJsonProvider1();
-
-
-          //  hotelResponse.Hotels.AddRange(translateHotel.JSONProviderOneHotel(serjson1.ReadJson()));
             
+
+
+            //  hotelResponse.Hotels.AddRange(translateHotel.JSONProviderOneHotel(serjson1.ReadJson()));
+
 
             //json1 read and parse
             SerializeJsonProvider2 serjson2 = new SerializeJsonProvider2();
 
-            Task<List<Hotelsummary>> tasklistjson = Task<List<Hotelsummary>>.Factory.StartNew(() => serjson2.ReadJson());
+            Task<List<Hotelsummary>> jsonReadtask = Task<List<Hotelsummary>>.Factory.StartNew(() => serjson2.ReadJson());
 
-            hotelResponse.Hotels.AddRange(translateHotel.JSONProviderTwoHotel(tasklistjson.Result));
+            hotelResponse.Hotels.AddRange(translateHotel.JSONProviderTwoHotel(jsonReadtask.Result));
 
-            Task[] tasks = { tasklistxml, tasklistjson };
-            Task.WaitAll(tasks);
+            Task[] tasks = { xmlReadtask, jsonReadtask };
+            Task.WaitAll(tasks,30000);
 
             return hotelResponse;
         }
