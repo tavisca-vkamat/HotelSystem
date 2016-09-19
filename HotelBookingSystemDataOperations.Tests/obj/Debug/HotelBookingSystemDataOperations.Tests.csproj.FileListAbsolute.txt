@@ -1,0 +1,7 @@
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelBookingSystemDataOperations.Tests\bin\Debug\HotelBookingSystemDataOperations.Tests.dll
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelBookingSystemDataOperations.Tests\bin\Debug\HotelBookingSystemDataOperations.Tests.pdb
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelBookingSystemDataOperations.Tests\bin\Debug\HotelBookingSystemDataOperations.dll
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelBookingSystemDataOperations.Tests\bin\Debug\HotelBookingSystemDataOperations.pdb
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelBookingSystemDataOperations.Tests\obj\Debug\HotelBookingSystemDataOperations.Tests.csprojResolveAssemblyReference.cache
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelBookingSystemDataOperations.Tests\obj\Debug\HotelBookingSystemDataOperations.Tests.dll
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelBookingSystemDataOperations.Tests\obj\Debug\HotelBookingSystemDataOperations.Tests.pdb

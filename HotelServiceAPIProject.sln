@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelServiceAPI", "HotelSearchServiceAPI\HotelServiceAPI.csproj", "{B19539F0-E7BE-4341-AFD3-BED0C80ECE1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelServiceAPI.Tests", "HotelServiceAPI.Tests\HotelServiceAPI.Tests.csproj", "{4E72DBEF-F665-42A0-ABE8-EC3153706B7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBookingSystemDataOperations", "HotelBookingSystemDataOperations\HotelBookingSystemDataOperations.csproj", "{0DB407FB-0626-4968-9A73-5C41E2EA30E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBookingSystemDataOperations.Tests", "HotelBookingSystemDataOperations.Tests\HotelBookingSystemDataOperations.Tests.csproj", "{18F06888-BA69-4185-BE55-887DBABB8107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLReadLibrary", "XMLReadLibrary\XMLReadLibrary.csproj", "{F9FA812F-B9A0-422D-A987-171120ED03F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMlReadLibrary.Tests", "XMlReadLibrary.Tests\XMlReadLibrary.Tests.csproj", "{2EC41FB5-DA67-45BE-9028-6693381BD9DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B19539F0-E7BE-4341-AFD3-BED0C80ECE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19539F0-E7BE-4341-AFD3-BED0C80ECE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19539F0-E7BE-4341-AFD3-BED0C80ECE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19539F0-E7BE-4341-AFD3-BED0C80ECE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E72DBEF-F665-42A0-ABE8-EC3153706B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E72DBEF-F665-42A0-ABE8-EC3153706B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E72DBEF-F665-42A0-ABE8-EC3153706B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E72DBEF-F665-42A0-ABE8-EC3153706B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB407FB-0626-4968-9A73-5C41E2EA30E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB407FB-0626-4968-9A73-5C41E2EA30E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB407FB-0626-4968-9A73-5C41E2EA30E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB407FB-0626-4968-9A73-5C41E2EA30E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F06888-BA69-4185-BE55-887DBABB8107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F06888-BA69-4185-BE55-887DBABB8107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F06888-BA69-4185-BE55-887DBABB8107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F06888-BA69-4185-BE55-887DBABB8107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9FA812F-B9A0-422D-A987-171120ED03F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9FA812F-B9A0-422D-A987-171120ED03F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9FA812F-B9A0-422D-A987-171120ED03F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9FA812F-B9A0-422D-A987-171120ED03F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC41FB5-DA67-45BE-9028-6693381BD9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC41FB5-DA67-45BE-9028-6693381BD9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC41FB5-DA67-45BE-9028-6693381BD9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC41FB5-DA67-45BE-9028-6693381BD9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

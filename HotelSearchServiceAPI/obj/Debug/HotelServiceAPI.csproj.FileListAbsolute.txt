@@ -1,0 +1,12 @@
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\obj\Debug\HotelServiceAPI.csprojResolveAssemblyReference.cache
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\bin\HotelSearchServiceAPIProject.dll.config
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\bin\HotelSearchServiceAPIProject.dll
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\bin\HotelSearchServiceAPIProject.pdb
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\bin\HotelBookingSystemDataOperations.dll
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\bin\XMLReadLibrary.dll
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\bin\HotelBookingSystemDataOperations.pdb
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\bin\XMLReadLibrary.pdb
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\obj\Debug\HotelSearchServiceAPIProject.dll
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\obj\Debug\HotelSearchServiceAPIProject.pdb
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\bin\Newtonsoft.Json.dll
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\HotelSearchServiceAPI\bin\Newtonsoft.Json.xml
