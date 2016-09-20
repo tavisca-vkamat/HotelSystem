@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml;
+using System.Threading;
 using System.Xml.Serialization;
 
 namespace XMLReadLibrary.XMLOperations
@@ -18,6 +14,10 @@ namespace XMLReadLibrary.XMLOperations
            
             try
             {
+                var randomiser = new Random();
+                var randomNumber = randomiser.Next(10000);
+                Thread.Sleep(randomNumber);
+
                 XmlSerializer serializer = new XmlSerializer(typeof(SearchResult));
                 StreamReader file = new StreamReader(Property.DataProviderXML);
                 

@@ -1,8 +1,8 @@
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMLReadLibrary\bin\Debug\XMLReadLibrary.dll
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMLReadLibrary\bin\Debug\XMLReadLibrary.pdb
-D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMLReadLibrary\obj\Debug\XMLReadLibrary.csprojResolveAssemblyReference.cache
-D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMLReadLibrary\obj\Debug\XMLReadLibrary.dll
-D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMLReadLibrary\obj\Debug\XMLReadLibrary.pdb
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMLReadLibrary\bin\Debug\Json.NET.Web.dll
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMLReadLibrary\bin\Debug\Newtonsoft.Json.dll
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMLReadLibrary\bin\Debug\Newtonsoft.Json.xml
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMLReadLibrary\obj\Debug\XMLReadLibrary.dll
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMLReadLibrary\obj\Debug\XMLReadLibrary.pdb
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMLReadLibrary\obj\Debug\XMLReadLibrary.csprojResolveAssemblyReference.cache

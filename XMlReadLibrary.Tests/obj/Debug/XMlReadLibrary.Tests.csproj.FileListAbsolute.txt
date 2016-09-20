@@ -1,9 +1,12 @@
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\bin\Debug\Data\hotelProvider2.JSON
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\bin\Debug\Data\hotelProvider3.JSON
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\bin\Debug\Data\hotelProvider1.XML
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\bin\Debug\XMlReadLibrary.Tests.dll
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\bin\Debug\XMlReadLibrary.Tests.pdb
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\bin\Debug\XMLReadLibrary.dll
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\bin\Debug\Newtonsoft.Json.dll
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\bin\Debug\XMLReadLibrary.pdb
+D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\bin\Debug\Newtonsoft.Json.xml
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\obj\Debug\XMlReadLibrary.Tests.csprojResolveAssemblyReference.cache
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\obj\Debug\XMlReadLibrary.Tests.dll
 D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\obj\Debug\XMlReadLibrary.Tests.pdb
-D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\bin\Debug\Newtonsoft.Json.dll
-D:\training\WCF\hotel Booking Api with database\HotelServiceAPI\XMlReadLibrary.Tests\bin\Debug\Newtonsoft.Json.xml
