@@ -22,6 +22,7 @@ namespace HotelServiceAPI.Model.Services
         /// Returns HotelResponse object which contains hotels by city name search
         public HotelResponse GetHotels()
         {
+
             /*   database code
                HotelResponse hotelResponse = new HotelResponse();
                HotelOperations hotelOperations = new HotelOperations();
@@ -40,31 +41,25 @@ namespace HotelServiceAPI.Model.Services
                */
             //xml code
             //xml read and parse
+            List<Task> tasks = new List<Task>();
+
+
             HotelResponse hotelResponse = new HotelResponse();
             SerializeOperaionsXML serializeOperaionsXML = new SerializeOperaionsXML();
-
+            SerializeJsonProvider2 serjson2 = new SerializeJsonProvider2();
             TranslateHotel translateHotel = new TranslateHotel();
 
-            Task<SearchResult> xmlReadtask = Task<SearchResult>.Factory.StartNew(() => serializeOperaionsXML.ReadXml());
+            var xmlReadtask = Task.Run(() => serializeOperaionsXML.ReadXml());
+            tasks.Add(xmlReadtask);
+            var jsonReadtask = Task.Run(() => serjson2.ReadJson());
+            tasks.Add(jsonReadtask);
+            Console.WriteLine("waiting for 20 sec ");
+            Task.WaitAll(tasks.ToArray(), 20000);
 
-            hotelResponse.Hotels = translateHotel.XMLHotel(xmlReadtask.Result);
-
-            //json1 read and parse
-            
-
-
-            //  hotelResponse.Hotels.AddRange(translateHotel.JSONProviderOneHotel(serjson1.ReadJson()));
-
-
-            //json1 read and parse
-            SerializeJsonProvider2 serjson2 = new SerializeJsonProvider2();
-
-            Task<List<Hotelsummary>> jsonReadtask = Task<List<Hotelsummary>>.Factory.StartNew(() => serjson2.ReadJson());
-
-            hotelResponse.Hotels.AddRange(translateHotel.JSONProviderTwoHotel(jsonReadtask.Result));
-
-            Task[] tasks = { xmlReadtask, jsonReadtask };
-            Task.WaitAll(tasks,30000);
+            if (tasks[tasks.IndexOf(xmlReadtask)].IsCompleted && !tasks[tasks.IndexOf(xmlReadtask)].IsFaulted)
+                hotelResponse.Hotels = translateHotel.XMLHotel(xmlReadtask.Result);
+            if (tasks[tasks.IndexOf(jsonReadtask)].IsCompleted && !tasks[tasks.IndexOf(jsonReadtask)].IsFaulted)
+                hotelResponse.Hotels.AddRange(translateHotel.JSONProviderTwoHotel(jsonReadtask.Result));
 
             return hotelResponse;
         }

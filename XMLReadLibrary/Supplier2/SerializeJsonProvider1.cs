@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.Serialization.Json;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using XMLReadLibrary.XMLClasses.ProviderOne;
@@ -15,11 +16,13 @@ namespace XMLReadLibrary.XMLOperations
     {
         public Hotel_Data ReadJson()
         {
-
+            var randomiser = new Random();
+            var randomNumber = randomiser.Next(30000);
+            Thread.Sleep(randomNumber);
 
 
             JavaScriptSerializer oJS = new JavaScriptSerializer();
-            StreamReader sr = new StreamReader(Property.DataProviderJsonOne);
+            StreamReader sr = new StreamReader(Property.DataProviderJsonTwo);
             string jsonString = sr.ReadToEnd();
             var oRootObject = JsonConvert.DeserializeObject<Rootobject>(jsonString);
 
